@@ -1,0 +1,24 @@
+[
+    {
+        "CPF":"13867186707",
+        "Name":"Gabriel",
+        "Status":0,
+        "checkingAccount": "11111-1",
+        "applicationAccount":"22222-2"
+    },
+    {
+        "CPF":"06425847883",
+        "Name":"Maria",
+        "Status":1,
+        "checkingAccount": "33333-3",
+        "applicationAccount":"44444-4"
+    },
+    {
+        "CPF":"26857897077",
+        "Name":"Jão da Silva",
+        "Status":0,
+        "checkingAccount": "55555-5",
+        "applicationAccount":"66666-6"
+    }
+    
+]

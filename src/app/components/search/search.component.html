@@ -1,0 +1,32 @@
+
+<div class="page">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <h1 class="navbar-brand">NOVA ADMISSÃO COOPERADO</h1>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <div>
+                <form class="row g-3" [formGroup]="form">
+                    <div class="col-sm-4">
+                        <label for="cpf" class="form-label">CPF</label>
+                      <input  type="text" name="" id="cpf" placeholder="000.000.000-00" mask="000.000.000-00" [class.is-invalid]="form.touched && !form.valid" class="form-control" formControlName="cpf">
+                    </div>
+                    <div class="col div-button">
+                      <button type="submit" class="btn btn-primary mb-3" [disabled]="!form.valid" (click)="search()">Consultar por CPF</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+
+        <app-error *ngIf="invalid"></app-error>
+        <app-cooperated-data *ngIf="!invalid && selectedCooperated" [cooperated]="selectedCooperated"></app-cooperated-data>
+    </div>
+</div>
+
+
+
+
+

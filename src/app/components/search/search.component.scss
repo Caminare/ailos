@@ -1,0 +1,23 @@
+.page {
+    min-height: 100vh;
+    background-color: #e7eef1;
+
+    .navbar h1 {
+        padding: 16px;
+    }
+
+    .container {
+        margin-top: 20vh;
+
+        .jumbotron {
+            margin-bottom: 24px;
+
+            .div-button {
+                align-self: end;
+                button {
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.card {
+    .card-body {
+        padding: 24px !important;
+    }
+    height: 100%;
+}
+
+.row > div {
+    margin-bottom: 16px;
+}
+
+.group {
+    label {
+        font-size: 12px;
+    }
+    p {
+        font-size: 14px;
+    }
+
+    .col-1{
+        align-self: center;
+
+        .green {
+            color: lightgreen;
+        }
+
+        .orange {
+            color:  orange;
+        }
+    }
+}
